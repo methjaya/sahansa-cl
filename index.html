@@ -56,6 +56,17 @@
       box-shadow: var(--glass-shadow);
     }
 
+    .profile-photo {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 16px;
+      display: block;
+      border: 2px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 8px 20px -4px rgba(15, 23, 42, 0.12);
+    }
+
     h1 {
       font-size: 23px;
       font-weight: 700;
@@ -211,6 +222,12 @@
 <body>
 
   <main class="card">
+    <img 
+      src="https://www.codinglegends.io/_next/image?url=https%3A%2F%2Fkrfu59og7ychb0mc.public.blob.vercel-storage.com%2Fsahansa.jpg%3F2026-10-16T12%253A17%253A10.370Z&w=640&q=75" 
+      alt="Sahansa Jayawardhana" 
+      class="profile-photo"
+      loading="eager"
+    >
     <h1>Sahansa Jayawardhana</h1>
     <div class="role">Project Manager</div>
     <div class="company">Coding Legends Pvt Ltd</div>
